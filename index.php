@@ -79,8 +79,8 @@
                 </div>
                 <div class="col-md-4 skills-section">
                     <h4>CRO</h4>
-                    <p>What is Conversion Rate Optimization? It’s a fancy way of saying that I enjoy leveraging data like clicks,
-                        time on site, and conversion rate to continually improve flows and acquition paths.</p>
+                    <p>What is Conversion Rate Optimization? It’s a fancy way of leveraging data like clicks,
+                        time on site, and conversion rate to continually improve the acquition paths.</p>
                 </div>
                 <div class="col-md-4 skills-section">
                     <h4>Branding</h4>
@@ -129,30 +129,27 @@
                     you want to chat about any projects you think I would be a good fit for contact me by email.</p>
             </div>
             <div class="form-section col-md-6">
-                <form role="form" id="contact-form" class="contact-form">
+                <form role="form" id="contact-form" class="contact-form" action="submit.php" method="post">
                     <!--<div class="row">-->
                     <div class="col-md-6">
-                        <p><strong>Name:</strong>
-                            <p>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="name" autocomplete="off" id="name">
-                                </div>
+                        <p><strong>Name:</strong><p>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="name" autocomplete="off" id="name">
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <p><strong>Email:</strong>
-                            <p>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" name="email" autocomplete="off" id="email">
-                                </div>
+                        <p><strong>Email:</strong><p>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" autocomplete="off" id="email">
+                        </div>
                     </div>
                     <!--</div>-->
                     <!--<div class="row">-->
                     <div class="col-md-12">
-                        <p><strong>Message:</strong>
-                            <p>
-                                <div class="form-group message">
-                                    <textarea class="form-control textarea" rows="3" name="Message" id="Message"></textarea>
-                                </div>
+                        <p><strong>Message:</strong><p>
+                        <div class="form-group message">
+                            <textarea class="form-control textarea" rows="3" name="Message" id="Message"></textarea>
+                        </div>
                     </div>
                     <!--</div>-->
                     <!--<div class="row">-->
@@ -162,6 +159,7 @@
                     <!--</div>-->
                 </form>
             </div>
+            
         </div>
     </div>
     </div>
