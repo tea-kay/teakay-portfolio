@@ -35,7 +35,7 @@
             <div class="col-md-8 col-md-offset-2 intro">
                 <h1>Hi I'm Tim,</h1>
                 <p>A Builder of tools and solver of problems. <br>I enjoy making things.</p>
-                <div id="introImg"><a href="#blub-start"><img src="img/intro-img.png"></a></div>
+                <div id="introImg"><a href="#blurb-start"><img src="img/intro-img.png"></a></div>
             </div>
             <!--This is where the top intro section ends-->
         </div>
@@ -166,6 +166,7 @@
             </div>
             
         </div>
+        
     </div>
     </div>
     <footer class="container-fluid text-center bg-lightgray">
