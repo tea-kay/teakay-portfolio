@@ -10,6 +10,8 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Gafata" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+
+
 </head>
 
 <body data-spy="scroll">
@@ -33,12 +35,13 @@
             <div class="col-md-8 col-md-offset-2 intro">
                 <h1>Hi I'm Tim,</h1>
                 <p>A Builder of tools and solver of problems. <br>I enjoy making things.</p>
-                <a href="#blub"><img src="img/intro-img.png"></a>
+                <div id="introImg"><a href="#blub-start"><img src="img/intro-img.png"></a></div>
             </div>
-            <!--This is thwere the top intro section ends-->
+            <!--This is where the top intro section ends-->
         </div>
         <div class="row">
-            <div class="blurb col-md-4 col-md-offset-2" id="blurb-start">
+        <a name="blurb-start"></a>
+            <div class="blurb col-md-4 col-md-offset-2" id="">
                 <h4><strong>I believe that:</strong> <br>The future is bright and that people are genuinely good.</h4>
                 <h4><strong>This is why I'm looking to:</strong> <br> Work with innovative companies and work with ambitious
                     people.
@@ -91,9 +94,10 @@
     </div>
     </div>
     <div class="row">
-        <div class="work col-md-8 col-md-offset-2" id="work-start">
+        <div class="work col-md-8 col-md-offset-2" id="">
             <div class="row">
                 <div class="work-header col-md-4 col-md-offset-4">
+                    <a name="work-start"></a>
                     <h3>Work I've Done</h3>
                 </div>
             </div>
@@ -120,7 +124,8 @@
         </div>
     </div>
     <div class="row">
-        <div class="contact-header col-md-4 col-md-offset-4" id="contact-start">
+        <div class="contact-header col-md-4 col-md-offset-4" id="">
+            <a name="contact-start"></a>
             <h3>Let's Talk</h3>
         </div>
         <div class="contact col-md-8 col-md-offset-2">
@@ -171,6 +176,8 @@
             <p><a href="https://www.linkedin.com/in/realtimkim" target="_blank">Linkedin <i class="fa fa-linkedin-square" aria-hidden="true"></i> </a></p>
         </div>
     </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="smoothscroll.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
-
 </html>
